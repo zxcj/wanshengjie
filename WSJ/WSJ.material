@@ -1,0 +1,179 @@
+material textured
+{
+    sampler u_diffuseTexture
+    {
+        mipmap = false
+        wrapS = CLAMP
+        wrapT = CLAMP
+        minFilter = LINEAR
+        magFilter = LINEAR
+    }
+
+    technique
+    {
+        pass 
+        {
+            vertexShader = shaders/textured.vert
+            fragmentShader = shaders/textured.frag
+
+            u_inverseTransposeWorldViewMatrix = INVERSE_TRANSPOSE_WORLD_VIEW_MATRIX
+            u_worldViewProjectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+            
+            renderState
+            {
+                blend = true
+                blendDst = ONE_MINUS_SRC_ALPHA
+                blendSrc = SRC_ALPHA
+                cullFace = true
+                cullFaceSide = BACK
+                depthTest = true
+            }
+            
+        }
+    }
+}
+
+material WSJ_Tangguo_1_tex : textured
+{
+    sampler u_diffuseTexture
+    {
+        path = WSJ.fbm/WSJ_Tangguo_1_tex.png
+    }
+
+    technique
+    {
+        pass 
+        {
+            u_matrixPalette = MATRIX_PALETTE
+            
+            defines = DIRECTIONAL_LIGHT_COUNT 1;SKINNING;SKINNING_JOINT_COUNT 9
+        }
+    }
+}
+
+material WSJ_Tangguo_2_tex : textured
+{
+    sampler u_diffuseTexture
+    {
+        path = WSJ.fbm/WSJ_Tangguo_2_tex.png
+    }
+
+    technique
+    {
+        pass 
+        {
+            u_matrixPalette = MATRIX_PALETTE
+            
+            defines = DIRECTIONAL_LIGHT_COUNT 1;SKINNING;SKINNING_JOINT_COUNT 9
+        }
+    }
+}
+
+material WSJ_Tangguo_3_tex : textured
+{
+    sampler u_diffuseTexture
+    {
+        path = WSJ.fbm/WSJ_Tangguo_3_tex.png
+    }
+
+    technique
+    {
+        pass 
+        {
+            u_matrixPalette = MATRIX_PALETTE
+            
+            defines = DIRECTIONAL_LIGHT_COUNT 1;SKINNING;SKINNING_JOINT_COUNT 9
+        }
+    }
+}
+
+material WSJ_UI_01_tex : textured
+{
+    sampler u_diffuseTexture
+    {
+        path = WSJ.fbm/WSJ_QifenUI_1_tex.png
+    }
+
+    technique
+    {
+        pass 
+        {
+            u_matrixPalette = MATRIX_PALETTE
+            
+            defines = DIRECTIONAL_LIGHT_COUNT 1;SKINNING;SKINNING_JOINT_COUNT 9
+        }
+    }
+}
+
+material WSJ_anniu_1_tex : textured
+{
+    sampler u_diffuseTexture
+    {
+        path = WSJ.fbm/WSJ_Anniu_1_tex.png
+    }
+
+    technique
+    {
+        pass 
+        {
+            u_matrixPalette = MATRIX_PALETTE
+            
+            defines = DIRECTIONAL_LIGHT_COUNT 1;SKINNING;SKINNING_JOINT_COUNT 9
+        }
+    }
+}
+
+material WSJ_bianfu_01_tex : textured
+{
+    sampler u_diffuseTexture
+    {
+        path = WSJ.fbm/WSJ_Bianfu_Tex.png
+    }
+
+    technique
+    {
+        pass 
+        {
+            u_matrixPalette = MATRIX_PALETTE
+            
+            defines = DIRECTIONAL_LIGHT_COUNT 1;SKINNING;SKINNING_JOINT_COUNT 9
+        }
+    }
+}
+
+material WSJ_nangua_01_tex : textured
+{
+    sampler u_diffuseTexture
+    {
+        path = WSJ.fbm/WSJ_NanGua_1_tex.png
+    }
+
+    technique
+    {
+        pass 
+        {
+            u_matrixPalette = MATRIX_PALETTE
+            
+            defines = DIRECTIONAL_LIGHT_COUNT 1;SKINNING;SKINNING_JOINT_COUNT 9
+        }
+    }
+}
+
+material lambert15 : textured
+{
+    sampler u_diffuseTexture
+    {
+        path = WSJ.fbm/WSJ_ui_1_tex.png
+    }
+
+    technique
+    {
+        pass 
+        {
+            u_matrixPalette = MATRIX_PALETTE
+            
+            defines = DIRECTIONAL_LIGHT_COUNT 1;SKINNING;SKINNING_JOINT_COUNT 9
+        }
+    }
+}
+

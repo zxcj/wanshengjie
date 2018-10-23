@@ -1,0 +1,75 @@
+scene
+{
+    path = WSJ.gpb
+
+    showDefaultLight = false
+    ambientColor = 1.0, 1.0, 1.0
+
+    modelSize = 112
+    modelScale = 1.0
+
+    node WSJ_anniu_02_mod
+    {
+    }
+    node WSJ_beijing_01_mod
+    {
+    }
+    node WSJ_bianfu_01_mod
+    {
+    }
+    node WSJ_bianfu_02_mod
+    {
+    }
+    node WSJ_bianfu_03_mod
+    {
+    }
+    node WSJ_bianfu_04_mod
+    {
+    }
+    node WSJ_bianfu_05_mod
+    {
+    }
+    node WSJ_bianfu_06_mod
+    {
+    }
+    node WSJ_bianfu_Ani_group
+    {
+
+    }
+    node WSJ_bianfu_mod_group
+    {
+        enabled = false
+    }
+    node WSJ_biaoyu_01_mod
+    {
+    }
+    node WSJ_chengbao_01_mod
+    {
+        enabled = true
+    }
+    node WSJ_duihua_01_mod
+    {
+    }
+    node WSJ_nangua_Ani_Group
+    {
+    }
+    node WSJ_nanguai_01_mod
+    {
+    }
+    node WSJ_nanguai_02_mod
+    {
+    }
+    node WSJ_tangguo_01_mod
+    {
+    }
+    node WSJ_tangguo_02_mod
+    {
+    }
+    node WSJ_tangguo_03_mod
+    {
+    }
+    node WSJ_tishikuang_01_mod
+    {
+    }
+
+}

@@ -1,0 +1,281 @@
+animation WSJ_bianfu_Ani_group
+{
+    frameCount = 660
+
+    startTime = 0
+
+    stopTime = 22000
+
+    clip appear
+    {
+        begin = 10
+        end = 59
+        repeatCount = 1
+    }
+
+}
+
+animation WSJ_nangua_Ani_Group
+{
+    frameCount = 660
+
+    startTime = 0
+
+    stopTime = 22000
+
+    clip appear
+    {
+        begin = 25
+        end = 313
+        repeatCount = 1
+    }
+    clip circle
+    {
+        begin = 353
+        end = 393
+        repeatCount = 1
+    }
+    clip interaction
+    {
+        begin = 393
+        end = 520
+        repeatCount = 1
+    }
+    clip circle2
+    {
+        begin = 560
+        end = 600
+        repeatCount = 1
+    }
+}
+
+animation WSJ_bianfu_mod_group
+{
+    frameCount = 660
+
+    startTime = 0
+
+    stopTime = 22000
+
+    clip Default
+    {
+        begin = 0
+        end = 660
+        repeatCount = 1
+    }
+
+}
+
+animation WSJ_duihua_01_mod
+{
+    frameCount = 660
+
+    startTime = 0
+
+    stopTime = 22000
+
+    clip appear
+    {
+        begin = 25
+        end = 289
+        repeatCount = 1
+    }
+
+}
+
+animation WSJ_anniu_02_mod
+{
+    frameCount = 660
+
+    startTime = 0
+
+    stopTime = 22000
+
+    clip appear
+    {
+        begin = 521
+        end = 531
+        repeatCount = 1
+    }
+    clip circle
+    {
+        begin = 551
+        end = 571
+        repeatCount = 1
+    }
+
+}
+
+animation WSJ_tishikuang_01_mod
+{
+    frameCount = 660
+
+    startTime = 0
+
+    stopTime = 22000
+
+    clip appear
+    {
+        begin = 25
+        end = 339
+        repeatCount = 1
+    }
+    clip goon
+    {
+        begin = 441
+        end = 454
+        repeatCount = 1
+    }
+
+}
+
+animation WSJ_biaoyu_01_mod
+{
+    frameCount = 660
+
+    startTime = 0
+
+    stopTime = 22000
+
+    clip appear
+    {
+        begin = 514
+        end = 526
+        repeatCount = 1
+    }
+    clip circle
+    {
+        begin = 566
+        end = 606
+        repeatCount = 1
+    }
+
+}
+
+animation WSJ_chengbao_01_mod
+{
+    frameCount = 660
+
+    startTime = 0
+
+    stopTime = 22000
+
+    clip appear
+    {
+        begin = 0
+        end = 19
+        repeatCount = 1
+    }
+    clip disappear
+    {
+        begin = 510
+        end = 524
+        repeatCount = 1
+    }
+
+}
+
+animation WSJ_tangguo_03_mod
+{
+    frameCount = 660
+
+    startTime = 0
+
+    stopTime = 22000
+
+    clip appear
+    {
+        begin = 25
+        end = 299
+        repeatCount = 1
+    }
+    clip circle
+    {
+        begin = 329
+        end = 359
+        repeatCount = 1
+    }
+    clip interaction
+    {
+        begin = 389
+        end = 438
+        repeatCount = 1
+    }
+
+}
+
+animation WSJ_tangguo_02_mod
+{
+    frameCount = 660
+
+    startTime = 0
+
+    stopTime = 22000
+
+    clip appear
+    {
+        begin = 25
+        end = 301
+        repeatCount = 1
+    }
+    clip circle
+    {
+        begin = 331
+        end = 361
+        repeatCount = 1
+    }
+    clip interaction
+    {
+        begin = 391
+        end = 440
+        repeatCount = 1
+    }
+
+}
+
+animation WSJ_tangguo_01_mod
+{
+    frameCount = 660
+
+    startTime = 0
+
+    stopTime = 22000
+
+    clip appear
+    {
+        begin = 25
+        end = 303
+        repeatCount = 1
+    }
+    clip circle
+    {
+        begin = 333
+        end = 363
+        repeatCount = 1
+    }
+    clip interaction
+    {
+        begin = 393
+        end = 442
+        repeatCount = 1
+    }
+
+}
+
+animation WSJ_beijing_01_mod
+{
+    frameCount = 660
+
+    startTime = 0
+
+    stopTime = 22000
+
+    clip Default
+    {
+        begin = 0
+        end = 660
+        repeatCount = 1
+    }
+
+}
+
